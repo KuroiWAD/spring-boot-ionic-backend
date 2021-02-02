@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 
 import com.daniel.cursomc.dao.ClienteDAO;
 import com.daniel.cursomc.domain.Cliente;
-import com.daniel.cursomc.service.exception.ObjectNotFoundException;
+import com.daniel.cursomc.services.exception.ObjectNotFoundException;
 
 @Service
 public class ClienteService {

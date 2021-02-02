@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 
 import com.daniel.cursomc.dao.PedidoDAO;
 import com.daniel.cursomc.domain.Pedido;
-import com.daniel.cursomc.service.exception.ObjectNotFoundException;
+import com.daniel.cursomc.services.exception.ObjectNotFoundException;
 
 @Service
 public class PedidoService {

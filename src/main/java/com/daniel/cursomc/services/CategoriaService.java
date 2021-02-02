@@ -13,8 +13,8 @@ import org.springframework.stereotype.Service;
 import com.daniel.cursomc.dao.CategoriaDAO;
 import com.daniel.cursomc.domain.Categoria;
 import com.daniel.cursomc.dto.CategoriaDTO;
-import com.daniel.cursomc.service.exception.DataIntegrityException;
-import com.daniel.cursomc.service.exception.ObjectNotFoundException;
+import com.daniel.cursomc.services.exception.DataIntegrityException;
+import com.daniel.cursomc.services.exception.ObjectNotFoundException;
 
 @Service
 public class CategoriaService {
