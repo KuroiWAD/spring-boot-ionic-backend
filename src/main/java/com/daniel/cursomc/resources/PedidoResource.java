@@ -21,15 +21,6 @@ public class PedidoResource {
 	public ResponseEntity<Pedido> find(@PathVariable Integer id) {
 		Pedido obj = service.find(id);
 		return ResponseEntity.ok().body(obj);
-		/*
-		 * Pedido cat1 = new Pedido(1, "Informatica");
-		 * Pedido cat2 = new Pedido(2, "Escritório");
-		 * List<Pedido> lista = new ArrayList<>();
-		 * lista.add(cat1);
-		 * lista.add(cat2);
-		 * 
-		 * return lista;
-		 */
 	}
 	
 }
