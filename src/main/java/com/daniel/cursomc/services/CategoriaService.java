@@ -28,12 +28,16 @@ public class CategoriaService {
 		 "Objeto não encontrado! Id: " + id + ", Tipo: " + Categoria.class.getName()));
 	}
 	
+	public Categoria insert(Categoria obj) {
+		obj.setId(null);
+		return dao.save(obj);
+	}
+	
 	public Categoria update(Categoria obj) {
 		Categoria newObj = find(obj.getId());
 		updateData(newObj, obj);
 		return dao.save(newObj);
 	}
-	
 	
 	public void delete(Integer id) {
 		find(id);
